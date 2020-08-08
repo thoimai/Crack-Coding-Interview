@@ -23,12 +23,19 @@ Data Structures
 - two different objects have same key: colision
 - inset, del, index occure at O(1)
   
-collision revolution:
-  1. open addresing
-    * Linear probling
+---
+Collision revolution:
   
-  2. closed addr.
-    * Chaining (make a tail used linked list)
+  1. Open addresing
+    1.1 Linear probling
+
+- problems of linera probing is **clustering**
+- *plus 3* probe used to reduce clustering
+- extreme version of *plus 3* probling is **quaratic probing**
+
+  
+  2. Closed addressing:
+    *Chaining (make a tail used linked list)
     * problems may have: indexing while also traversing linked list's tail
 
 
